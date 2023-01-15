@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(84, 84, 84);
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    margin: 0px;
+    padding: 0px;
+    width: 98.7%;
+    position: fixed;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.search-icon {
+    width: 20%;
+    padding: 6px 6px;
+    margin: 6px;
+    color: black;
+}
+
+@media  screen and (max-width: 600px) {
+    ul.topnav li.right,
+    ul.topnav li{
+        float: none;
+    }
+}
